@@ -30,10 +30,9 @@ public class HiLoValueFinder extends Thread {
 
         HiLoValueFinder[] maxThread = new HiLoValueFinder[4];
         for (int i = 0; i <4 ; i++) {
-            maxThread[i] = maxThread(arr,(i*leng)/4,((i+1)*leng/4))
-            
+            HiLoValueFinder[i] = new maxThread
+
         }
 
     }
-    return foundMax;
 }
